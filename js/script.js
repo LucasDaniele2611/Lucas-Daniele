@@ -29,7 +29,7 @@ var users = [
     },
 ]
 
-for(var i=0; i < users.legth; i++){
+for(var i=0; i < users.length; i++){
 console.log(users[i].lastname + ", " + users[i].name + " tiene " + users[i].children.length, " hijos")
 
 }
