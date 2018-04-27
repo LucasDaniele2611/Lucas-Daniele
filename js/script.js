@@ -28,8 +28,15 @@ var users = [
         email: "sanchezjuancho@gmail.com",
     },
 ]
-
+function filterbyage(age){
 for(var i=0; i < users.length; i++){
-console.log(users[i].lastname + ", " + users[i].name + " tiene " + users[i].children.length, " hijos")
-
+    if(age > users[i].age){
+ console.log(assamble(users[i]));
 }
+}
+}
+
+function assamble(user){
+    return user.lastname + ", " + user.name + " tiene " + user.children.length + " hijos";
+}
+
