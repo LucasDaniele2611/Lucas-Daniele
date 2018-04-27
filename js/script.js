@@ -36,7 +36,17 @@ for(var i=0; i < users.length; i++){
 }
 }
 
-function assamble(user){
-    return user.lastname + ", " + user.name + " tiene " + user.children.length + " hijos";
-}
+//function assamble(user){
+  //  return user.lastname + ", " + user.name + " tiene " + user.children.length + " hijos";
+//}
 
+var listUsers = {
+    assamble: function(user){
+        return user.lastname + ", " + user.name + " tiene " + user.children.length + " hijos";
+    },
+    iterate: function(usersList){
+    for (var i = 0; i < usersList.length; i++ ){
+        console.log(listUsers.assamble(usersList[i]))
+    }
+    }
+}
