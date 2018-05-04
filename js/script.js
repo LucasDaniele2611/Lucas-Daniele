@@ -41,12 +41,20 @@ for(var i=0; i < users.length; i++){
 //}
 
 var listUsers = {
+    users:[],
     assamble: function(user){
-        return user.lastname + ", " + user.name + " tiene " + user.children.length + " hijos";
+        return user.country + ", " + user.Name + " tiene " + user.profile + " hijos";
     },
-    iterate: function(usersList){
-    for (var i = 0; i < usersList.length; i++ ){
-        console.log(listUsers.assamble(usersList[i]))
+    iterate: function(){
+    for (var i = 0; i < listUsers.users.length; i++ ){
+        console.log(listUsers.assamble(listUsers.users[i]))
+        
     }
+    
+    },
+    setUsers: function(users){
+            listUsers.users = users;
+            return;
     }
 }
+//listUsers.assamble(users)

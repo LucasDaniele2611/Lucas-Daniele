@@ -899,7 +899,7 @@ var usersItems = [
 		"salary": "$999.99",
 		"phone": "989-6883"
 	},
-	[
+	
 	{
 		"Name": "Darius, lastname",
 		"email": "egestas.rhoncus.Proin@odio.ca",
