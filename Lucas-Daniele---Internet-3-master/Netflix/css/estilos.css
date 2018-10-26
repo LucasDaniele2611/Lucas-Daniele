@@ -1,0 +1,39 @@
+
+
+form {
+margin: auto;
+display: block;
+}
+
+label {
+    margin: auto;
+    width: 50%;
+    display: block;
+    padding: 10px;
+    }
+
+button {
+    padding: 10px;
+}
+
+#peliculas {
+    padding: 20px;
+    background-color: #111;
+}
+
+.imagen {
+    width: 100%;
+}
+
+* {
+    color: white;
+    background-color: #111;
+}
+.principal {
+padding: 0 50px;
+}
+
+
+.ystar {
+    color: goldenrod;
+}
